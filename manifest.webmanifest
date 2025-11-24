@@ -1,1 +1,1 @@
-{"name":"toa_front_pages","short_name":"toa_front_pages","start_url":"/times_and_armies_front/","display":"standalone","background_color":"#ffffff","theme_color":"#42b883","lang":"en","scope":"/times_and_armies_front/"}
+{"name":"Times amd Armies","short_name":"TOA","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#B52600","lang":"en","scope":"/times_and_armies_front/","orientation":"portrait-primary","icons":[{"src":"/logo192.png","type":"image/png","sizes":"192x192"},{"src":"/logo512.png","type":"image/png","sizes":"512x512"}]}
