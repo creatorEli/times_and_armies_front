@@ -12,7 +12,7 @@ const Header: FC<HeaderProps> = ({ children }) => {
             <div className="header wrapper">
                 <div className="logo">
                     <Link to="/">
-                        <img src="./../src/resources/images/logo.png" alt="Логотип" />
+                        <img src="  /images/logo.png" alt="Логотип" />
                     </Link>
                 </div>
 

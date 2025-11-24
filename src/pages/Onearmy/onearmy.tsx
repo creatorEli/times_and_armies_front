@@ -19,7 +19,7 @@ const ArmyPage: FC = () => {
     const [loading, setLoading] = useState(true)
 
     const [imageError, setImageError] = useState(false) // Состояние для ошибки изображения
-    const defaultImage = "./../src/resources/images/default_army.jpg"
+    const defaultImage = "/images/default_army.jpg"
 
     useEffect(() => {
         const fetchArmy = async () => {
