@@ -10,7 +10,7 @@ interface ArmyCardProps {
 
 const ArmyCard: FC<ArmyCardProps> = ({ item }) => {
     const [imageError, setImageError] = useState(false)
-    const defaultImage = "/images/default_army.jpg"
+    const defaultImage = "/times_and_armies_front/images/default_army.jpg"
 
     return (
         <Col key={item.ArmyID}>
