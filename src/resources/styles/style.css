@@ -43,6 +43,14 @@ body {
     font-size: 40px;
 }
 
+.mpfiller {
+    width: 100vw;
+    height: 300px;
+    display: none;
+}
+
+
+
 @media (max-width: 1000px) {
     .mpWrapper {
         background: url(../images//beauty1000.png);
@@ -53,13 +61,20 @@ body {
 }
 
 @media (max-width: 500px) {
+    /* main {
+        height: 600px;
+    } */
+
     .mpWrapper {
         background: url(../images//beauty500.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-color: #fff;
-        height: calc(100vh - 199px);
-        min-height: 520px !important;
+        height: 600px;
+    }
+
+    .mpfiller {
+        display: block;
     }
 
     .logo {

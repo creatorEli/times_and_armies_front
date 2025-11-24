@@ -10,6 +10,7 @@ import ArmyPage from './pages/Onearmy/onearmy'
 import MainPage from './pages/Mainpage/mainpage'
 import { Provider } from 'react-redux'
 import { store } from './store'
+// import { registerSW } from "virtual:pwa-register";
 
 const router = createBrowserRouter([
   {
@@ -35,3 +36,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     </Provider>
   </React.StrictMode>,
 )
+
+// if ("serviceWorker" in navigator) {
+//   registerSW()
+// }
