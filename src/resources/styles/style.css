@@ -57,7 +57,18 @@ body {
         background: url(../images//beauty500.png);
         background-position: bottom;
         background-repeat: no-repeat;
+        background-color: #fff;
         height: calc(100vh - 199px);
+        min-height: 520px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo>a>img {
+        width: 290px;
     }
 }
 
